@@ -16,7 +16,7 @@ def send_photo(chat_id: int, photo: str):
     return response.json()
 
 
-chat_id = 86775091
+chat_id = 6824726862
 url = 'https://cdn.basedlabs.ai/5f6d2ea0-5127-11ef-b361-47dcd5c48087.jpg'
 
 send_photo(chat_id, url)
